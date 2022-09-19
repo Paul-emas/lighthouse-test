@@ -18,7 +18,7 @@ module.exports = {
 					40: '#d2d2d2',
 					50: '#c6c6c6',
 					60: '#b9b9b9',
-					70: '#acacac',
+					70: '#595959',
 					80: '#131313',
 					90: '#060606',
 					100: '#1a1a1a',
@@ -32,6 +32,7 @@ module.exports = {
 	variants: {
 		extends: {
 			scale: ['group-hover'],
+			translate: ['group-hover', 'hover'],
 		},
 	},
 	plugins: [],
