@@ -1,5 +1,5 @@
 <template lang="html">
-	<div class="w-full h-16 bottom-3 px-5 fixed md:hidden z-50">
+	<div class="w-full h-16 bottom-3 px-4 fixed md:hidden z-50">
 		<div class="px-6 md:px-10 xl:px-20 mx-auto h-full bg-neutral-100 shadow-xl rounded-2xl border-2">
 			<div class="flex h-full items-center justify-between">
 				<div @click="active = 'home'">

@@ -1,5 +1,5 @@
 <template lang="html">
-	<div class="absolute dropdown bg-neutral-80 shadow-lg -left-28 top-14 rounded-2xl overflow-hidden">
+	<div class="absolute dropdown bg-neutral-80 shadow-lg -left-28 top-14 rounded-2xl overflow-hidden hidden md:block">
 		<div class="px-5 py-5 border-b border-gray-800">
 			<UserProfile />
 		</div>
