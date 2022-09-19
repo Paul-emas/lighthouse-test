@@ -1,6 +1,6 @@
 <template>
 	<nav class="w-full fixed z-50 inset-0 h-16 bg-neutral-100 flex items-center shadow">
-		<div class="container px-4 md:px-10 xl:px-20 mx-auto">
+		<div class="container px-4 md:px-10 2xl:px-20 mx-auto">
 			<div class="flex items-center justify-between">
 				<div class="">
 					<img src="../assets/images/logo.png" alt="Lighthouse test logo" class="w-[100px] h-10" />

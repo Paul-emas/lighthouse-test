@@ -9,37 +9,13 @@
 </template>
 <script>
 import ExploreCard from './ExploreCard.vue';
+import { ExploreMenuData } from '../utils/data';
 
 export default {
 	components: { ExploreCard },
 	data: function () {
 		return {
-			exploreDataArr: [
-				{
-					id: '001',
-					title: 'Just Cause 4',
-					description: 'Games are fun',
-					url: require(`../assets/images/game-bg-1.jpg`),
-				},
-				{
-					id: '002',
-					title: 'Horizon',
-					description: 'Games are fun',
-					url: require(`../assets/images/game-bg-2.jpg`),
-				},
-				{
-					id: '003',
-					title: 'Call of duty',
-					description: 'Games are fun',
-					url: require(`../assets/images/game-bg-3.jpg`),
-				},
-				{
-					id: '004',
-					title: 'Need for speed',
-					description: 'Games are fun',
-					url: require(`../assets/images/game-bg-4.jpg`),
-				},
-			],
+			exploreDataArr: ExploreMenuData,
 		};
 	},
 };

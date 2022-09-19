@@ -1,3 +1,63 @@
+export const ExploreMenuData = [
+	{
+		id: '001',
+		title: 'Just Cause 4',
+		description: 'Games are fun',
+		url: require(`../assets/images/game-bg-1.jpg`),
+	},
+	{
+		id: '002',
+		title: 'Horizon',
+		description: 'Games are fun',
+		url: require(`../assets/images/game-bg-2.jpg`),
+	},
+	{
+		id: '003',
+		title: 'Call of duty',
+		description: 'Games are fun',
+		url: require(`../assets/images/game-bg-3.jpg`),
+	},
+	{
+		id: '004',
+		title: 'Need for speed',
+		description: 'Games are fun',
+		url: require(`../assets/images/game-bg-4.jpg`),
+	},
+];
+
+export const CategoryMenuData = [
+	{
+		id: '011',
+		type: 'live',
+		imageUrl: require('../assets/images/categories/category-01-ba.png'),
+		activeUrl: require('../assets/images/categories/category-01-active.png'),
+	},
+	{
+		id: '022',
+		type: 'sports',
+		imageUrl: require('../assets/images/categories/category-02-ba.png'),
+		activeUrl: require('../assets/images/categories/category-02-active.png'),
+	},
+	{
+		id: '033',
+		type: 'lottery',
+		imageUrl: require('../assets/images/categories/category-03-ba.png'),
+		activeUrl: require('../assets/images/categories/category-03-active.png'),
+	},
+	{
+		id: '044',
+		type: 'poker',
+		imageUrl: require('../assets/images/categories/category-04-ba.png'),
+		activeUrl: require('../assets/images/categories/category-04-active.png'),
+	},
+	{
+		id: '055',
+		type: 'games',
+		imageUrl: require('../assets/images/categories/category-05-ba.png'),
+		activeUrl: require('../assets/images/categories/category-05-active.png'),
+	},
+];
+
 export const LiveMenuData = [
 	{
 		imageUrl: require('../assets/images/live.jpg'),
